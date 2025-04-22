@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0eb0c814-73ed-4298-b8cd-645520119084">
+  <producedTypes>
+    <objectType typeId="212eb83a-a3e1-40ff-9ef0-e87375504940" valueTypeId="4e1f2ec6-edcc-437b-9341-10121e498371"/>
+    <managerType typeId="a4147827-00d0-4dad-ab1f-ee957fae6afd" valueTypeId="3d67cb7a-6f55-425c-aeaf-c5301da02054"/>
+  </producedTypes>
+  <name>РейтингКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рейтинг клиентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.РейтингКлиентов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="1fcc1222-9874-4019-a1b0-916bd715a7c4">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

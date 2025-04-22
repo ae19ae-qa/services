@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43792892-deb8-431b-8716-c18c06d7de01">
+  <producedTypes>
+    <objectType typeId="8dd2bffb-1f51-4d5c-8ac0-b55623ee8554" valueTypeId="68cbddae-56f3-432e-9010-cad4e72c53d8"/>
+    <refType typeId="d59cc190-078b-4707-970d-77466571ff69" valueTypeId="f0353953-d72f-472d-90d3-4c8c8e9696ce"/>
+    <selectionType typeId="8dcdb9a2-4bd6-4ff2-92a4-195204aa45cc" valueTypeId="e16110c8-9588-4e14-a189-ccad77801623"/>
+    <listType typeId="e81d8b0b-3dc0-4824-9353-120811bdb487" valueTypeId="b1e1eb4e-49ed-4c87-b592-bba4d57b13be"/>
+    <managerType typeId="d90d3a57-0ec3-4c8a-85b6-6a1141a6b5f8" valueTypeId="a3002a85-b187-4e76-ad2e-71e90e9a4484"/>
+  </producedTypes>
+  <name>ЗакупочныеЦены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закупочные цены</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗакупочныеЦены.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Закупочная цена</value>
+  </objectPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ЗакупочныеЦены.Form.ФормаДокумента</defaultObjectForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>InformationRegister.ЦеныЗакупок</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="b1516511-8fff-43c2-90fe-e04b7e17d98e">
+    <name>Поставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Поставщики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="19138d12-35a0-474e-9e41-211af1fb5956">
+    <name>Коментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="a809646d-96f8-4bf5-ab2f-3108ce8cb5eb">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="c8c5a5d9-0407-4452-b489-44fa91afb9de">
+    <producedTypes>
+      <objectType typeId="38200e37-2775-4098-b61c-826626b287a5" valueTypeId="8bb32ccf-d212-449f-8dcf-b01f8e05300b"/>
+      <rowType typeId="54dd880a-b1a8-440b-96d5-8b99bca8889d" valueTypeId="fc0dee68-ed9e-49c4-aeea-042e060c4743"/>
+    </producedTypes>
+    <name>ЗакупкаНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закупка номенклатуры</value>
+    </synonym>
+    <attributes uuid="cda1cd1c-d118-4961-9468-efbe289ab79e">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8fcc1d98-1f12-4128-aec2-e81176fc4790">
+      <name>ЦенаЗакупки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена закупки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

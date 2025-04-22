@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5f8a6ab-fdb9-4848-a819-9be5303b98c8">
+  <name>Бухгалтерия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бухгалтерия</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Бухгалтерия</picture>
+  </picture>
+  <content>Catalog.Клиенты</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Document.ПриходнаяНакладная</content>
+  <content>Document.ОказаниеУслуги</content>
+  <content>AccumulationRegister.ОстаткиМатериалов</content>
+  <content>Report.Материалы</content>
+  <content>InformationRegister.ЦеныЗакупок</content>
+  <content>AccumulationRegister.СтоимостьМатериалов</content>
+  <content>Document.ЗакупочныеЦены</content>
+  <content>Catalog.Поставщики</content>
+  <content>Document.УстановитьЦеныПродаж</content>
+  <content>InformationRegister.ЦеныПродажиНоменклатуры</content>
+  <content>AccumulationRegister.Продажи</content>
+  <content>Report.РеестрДокументовОказаниеУслуги</content>
+  <content>Report.ВыручкаМастеров</content>
+  <content>Report.РейтингУслуг</content>
+  <content>Report.ПереченьУслуг</content>
+</mdclass:Subsystem>
