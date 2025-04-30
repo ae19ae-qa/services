@@ -32,8 +32,9 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПриходнаяНакладная.Form.ФормаДокумента</defaultObjectForm>
-  <registerRecords>AccumulationRegister.ОстаткиМатериалов</registerRecords>
+  <registerRecords>AccountingRegister.Управленческий</registerRecords>
   <registerRecords>AccumulationRegister.СтоимостьМатериалов</registerRecords>
+  <registerRecords>AccumulationRegister.ОстаткиМатериалов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="71fdb8f9-7433-42de-ae1f-c182f0badb1b">
@@ -181,6 +182,24 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b40e8b40-46ec-434b-9869-0c416781b68d">
+      <name>НаборСвойств</name>
+      <synonym>
+        <key>ru</key>
+        <value>Набор свойств</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВариантыНоменклатуры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Document.ПриходнаяНакладная.TabularSection.Материалы.Attribute.Материал</field>
+      </choiceParameterLinks>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>

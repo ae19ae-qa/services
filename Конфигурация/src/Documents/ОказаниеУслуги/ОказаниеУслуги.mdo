@@ -32,8 +32,9 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ОказаниеУслуги.Form.ФормаДокумента</defaultObjectForm>
-  <registerRecords>AccumulationRegister.ОстаткиМатериалов</registerRecords>
+  <registerRecords>AccountingRegister.Управленческий</registerRecords>
   <registerRecords>AccumulationRegister.СтоимостьМатериалов</registerRecords>
+  <registerRecords>AccumulationRegister.ОстаткиМатериалов</registerRecords>
   <registerRecords>AccumulationRegister.Продажи</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
@@ -195,6 +196,24 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="49f91d32-5b69-4da1-b373-0980ba8986c9">
+      <name>НаборСвойств</name>
+      <synonym>
+        <key>ru</key>
+        <value>Набор свойств</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВариантыНоменклатуры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Document.ОказаниеУслуги.TabularSection.ПереченьНоменклатуры.Attribute.Номенклатура</field>
+      </choiceParameterLinks>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>

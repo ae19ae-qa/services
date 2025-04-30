@@ -65,4 +65,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
+  <dimensions uuid="1fb066c5-e1b8-4e73-a342-43c47adbd74e">
+    <name>НаборСвойств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор свойств</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВариантыНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
 </mdclass:AccumulationRegister>
