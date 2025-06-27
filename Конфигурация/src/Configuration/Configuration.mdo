@@ -54,30 +54,38 @@
   <commonPictures>CommonPicture.Предприятие</commonPictures>
   <commonPictures>CommonPicture.РасчетЗарплаты</commonPictures>
   <commonPictures>CommonPicture.УчетМатериалов</commonPictures>
+  <commonModules>CommonModule.ПроведениеРасчетов</commonModules>
   <commonModules>CommonModule.РаботаСДокументамиКлиент</commonModules>
   <commonModules>CommonModule.РаботаСоСправочникамиСервер</commonModules>
   <catalogs>Catalog.ВариантыНоменклатуры</catalogs>
+  <catalogs>Catalog.ВидыГрафиковРаботы</catalogs>
   <catalogs>Catalog.ДополнительныеСвойстваНоменклатуры</catalogs>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Поставщики</catalogs>
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Субконто</catalogs>
   <documents>Document.ЗакупочныеЦены</documents>
+  <documents>Document.НачисленияСотрудникам</documents>
   <documents>Document.ОказаниеУслуги</documents>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.УстановитьЦеныПродаж</documents>
   <enums>Enum.ВидыНоменклатуры</enums>
   <reports>Report.ВыручкаМастеров</reports>
+  <reports>Report.ДиаграммаНачислений</reports>
   <reports>Report.Материалы</reports>
+  <reports>Report.НачисленияСотрудникам</reports>
   <reports>Report.ОборотноСальдоваяВедомость</reports>
+  <reports>Report.Перерасчеты</reports>
   <reports>Report.ПереченьУслуг</reports>
   <reports>Report.РеестрДокументовОказаниеУслуги</reports>
   <reports>Report.РейтингКлиентов</reports>
   <reports>Report.РейтингУслуг</reports>
   <reports>Report.Универсальный</reports>
   <dataProcessors>DataProcessor.РаботаСЗапросами</dataProcessors>
+  <informationRegisters>InformationRegister.ГрафикиРаботы</informationRegisters>
   <informationRegisters>InformationRegister.ЗначенияСвойствНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныЗакупок</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныПродажиНоменклатуры</informationRegisters>
@@ -88,4 +96,6 @@
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СвойстваНоменклатуры</chartsOfCharacteristicTypes>
   <chartsOfAccounts>ChartOfAccounts.Основной</chartsOfAccounts>
   <accountingRegisters>AccountingRegister.Управленческий</accountingRegisters>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.ОсновныеНачисления</chartsOfCalculationTypes>
+  <calculationRegisters>CalculationRegister.Начисления</calculationRegisters>
 </mdclass:Configuration>

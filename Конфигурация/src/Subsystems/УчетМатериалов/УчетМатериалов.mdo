@@ -20,4 +20,5 @@
   <content>Document.ЗакупочныеЦены</content>
   <content>Catalog.Поставщики</content>
   <content>AccumulationRegister.Продажи</content>
+  <content>Catalog.Организации</content>
 </mdclass:Subsystem>

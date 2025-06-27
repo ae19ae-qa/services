@@ -79,4 +79,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
+  <dimensions uuid="1087d74c-ab9a-4c6e-a26a-73cf8c68ed3a">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
 </mdclass:AccumulationRegister>
